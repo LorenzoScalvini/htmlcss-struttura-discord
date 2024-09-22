@@ -35,26 +35,24 @@ body {
   }
 
 .content1{
-	flex: 2 1;
-	min-width: 100px;
-	min-height: 400px;
+	min-width: 200px;
+	min-height: 300px;
 }
 
 .content2{
-	flex: 2 1;
-	min-width: 100px;
-	min-height: 400px;
+	min-width: 200px;
+	min-height: 300px;
 }
 
 .content3{
-	flex: 2 1;
-	min-width: 100px;
-	min-height: 400px;
+	min-width: 700px;
+	min-height: 500px;
 }
 
-.content4 {
-	min-width: 600px;
-	min-height: 600px;
+.content5 {
+	min-width: 260px;
+	min-height: 200px;
+
   }
   
 
@@ -66,6 +64,12 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .menu {
@@ -102,10 +106,18 @@ body {
 	background-color: aqua;
 }
 
+.darkcyan{
+	background-color: darkcyan;
+}
+
 .minheight1 {
 	height: 300px;
 }
 
 .minheight2 {
 	height: 700px;
+}
+
+.sizefooter{
+	min-width: 100px;
 }
