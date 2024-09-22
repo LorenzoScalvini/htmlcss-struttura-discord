@@ -35,36 +35,66 @@
     </header>
     <main>
         <!-- Main content -->
-            <div class="flex-container blue minheight1">
-                <div class="main-content pink"></div>
-              </div>
-        <!--Layout content 1-->      
-        <div class="flex-container white minheight2">
-            <div class="content1 lightblue"></div>
-            <div class="content1 pink"></div>
-          </div>
-           <!--Layout content 2-->      
-        <div class="flex-container grey minheight2">
-            <div class="content2 pink"></div>
-            <div class="content2 lightblue"></div>
-          </div>
-           <!--Layout content 3-->      
-        <div class="flex-container white minheight2">
-            <div class="content1 lightblue"></div>
-            <div class="content1 pink"></div>
-          </div>
+        <section class="blue">
+            <div class="flex-container minheight">
+                <div class="row">
+                    <div class="content pink"></div>
+                </div>
+            </div>
+        </section>     
+
+        <!--Layout content 1-->   
+        <section class="white"> 
+            <div class="flex-container minheight">
+                <div class="row">
+                    <div class="content lightblue col-66"></div>
+                    <div class="content pink"></div>
+                </div>
+            </div>
+        </section>  
+
+           <!--Layout content 2-->
+        <section class="grey">    
+        <div class="flex-container minheight">
+                <div class="row">
+                    <div class="content pink col-66"></div>
+                    <div class="content lightblue"></div>
+                </div>
+            </div>
+        </section>
+
+           <!--Layout content 3--> 
+        <section class="white">   
+        <div class="flex-container minheight">
+                <div class="row">
+                    <div class="content lightblue col-66"></div>
+                    <div class="content pink"></div>
+                </div>
+            </div>
+        </section>  
+
         <!--Layout content 4-->
-              <div class="flex-container grey minheight2">
-                <div class="content3 green"></div>
+        <section class="grey">
+            <div class="row">
+                <div class="flex-container minheight">
+                <div class="content green"></div>
               </div>
+            </div>
+        </section>
+
         <!--Layout content 5-->
-              <div class="flex-container white minheight2">
-                <div class="content5 pink"></div>
-                <div class="content5 darkcyan"></div>
-                <div class="content5 darkcyan"></div>
-                <div class="content5 darkcyan"></div>
-                <div class="content5 darkcyan"></div>
-              </div>
+        <section class="white">
+            <div class="row">
+                <div class="flex-container minheight">
+                    <div class="content pink col-20"></div>
+                    <div class="content darkcyan col-20"></div>
+                    <div class="content darkcyan col-20"></div>
+                    <div class="content darkcyan col-20"></div>
+                    <div class="content darkcyan col-20"></div>
+                </div>
+        </section>
+
+            </main>
         <footer>
             <nav class="footer yellow">
                 <a class="logo" href="./">
