@@ -23,11 +23,40 @@ body {
 	background-color: #efefef;
 }
 
-.container {
-	max-width: 900px;
-	margin: 20px auto;
+.flex-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
 
+.main-content {
+	min-width: 700px;
+	min-height: 200px;
+  }
+
+.content1{
+	flex: 2 1;
+	min-width: 100px;
+	min-height: 400px;
 }
+
+.content2{
+	flex: 2 1;
+	min-width: 100px;
+	min-height: 400px;
+}
+
+.content3{
+	flex: 2 1;
+	min-width: 100px;
+	min-height: 400px;
+}
+
+.content4 {
+	min-width: 600px;
+	min-height: 600px;
+  }
+  
 
 .header {
 	padding: 12px 80px;
@@ -44,39 +73,39 @@ body {
 	gap: 20px;
 }
 
-.maincontent .container {
-	background-size: cover;
-	background-position: center;
-	min-height: 250px;
-	border-radius: 16px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-}
-
-.maintitle {
-	font-size: 64px;
-	text-transform: uppercase;
-}
-
-
-
-
-
 /* Debug */
-.purple {
-    background-color: blueviolet;
+.pink {
+    background-color: pink;
 }
 
 .yellow {
     background-color: yellow;
 }
 
-.acqua {
-    background-color: aqua;
+.grey {
+    background-color: grey;
 }
 
 .blue{
     background-color: blue;
+}
+
+.green {
+	background-color: green;
+}
+
+.white {
+	background-color: white;
+}
+
+.lightblue {
+	background-color: aqua;
+}
+
+.minheight1 {
+	height: 300px;
+}
+
+.minheight2 {
+	height: 700px;
 }
